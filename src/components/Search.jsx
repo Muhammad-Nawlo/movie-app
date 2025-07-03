@@ -4,7 +4,7 @@ const Search = ({search, setSearch}) => {
     return (
         <div className="search">
             <div>
-                <img src="/search.svg" alt="search icon"/>
+                <img src="./search.svg" alt="search icon"/>
                 <input type="text"
                        placeholder="Search through thousands of movies..."
                        value={search}
